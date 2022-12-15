@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Description de la formation HN Services</title>
+</head>
+<style>
+    .container-padding {
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+</style>
+
+<body>
+    <!-- Presentation entreprise -->
+    <div class="container">
+        <h2 class="w-100 d-flex justify-content-center">Description de l'entreprise</h2>
+        <p>HN Services a été fondée en 1983 par Mr Hochberg Niquet.</br>
+            La société a été créée pour réaliser des services informatiques avec des prix attractifs.</br>
+        <ul>
+            <li>1989 : Création du centre de formation HN institut.</li>
+            <li>2006 : Développement de l'entreprise en Roumanie.</li>
+            <li>2014 : Développement de l'entreprise aux USA.</li>
+            <li>2015 : Nomination de Mr Antoine Hennache à la direction générale.</li>
+            <li>2016 : Développement de l'entreprise au Portugal.</li>
+            <li>2018 : Développement de l'entreprise en Espagne.</li>
+            <li>2021 : Le groupe HN devient HN Services.</li>
+            <li>2022 : Création d'HN Digital Expertise.</li>
+        </ul>
+        </p>
+    </div>
+    <!-- programme en details -->
+    <div class="container">
+        <h2 class="w-100 d-flex justify-content-center">Description de la partie mainframe du programme</h2>
+        <h3>Mainframe :</h3>
+        <div class="container-padding">
+            <h4>Définition : Mainframe</h4>
+            <p>À la base, les mainframes sont des ordinateurs hautes performances dotés de grandes quantités de mémoire
+                et de
+                processeurs qui traitent des milliards de calculs et de transactions simples en temps réel. Le mainframe
+                est essentiel pour les bases de données commerciales, les serveurs de transaction et les applications
+                qui
+                nécessitent une résilience, une sécurité et une agilité élevées.</p>
+            <h4>Définition : TSO</h4>
+            <p>Time Sharing Option (TSO) est un interpréteur de lignes de commande interagissant avec MVS
+                (utilisé pour les systèmes d’exploitations OS/390 et aujourd’hui z/OS).
+                TSO est employé par l’ensemble des utilisateurs de la machine, des administrateurs systèmes aux
+                développeurs. </br>
+                C'est l'interface d'accueil pour l'ensemble des utilisateurs.</p>
+            <h4>Définition : ISPF</h4>
+            <p>Interactive System Productivity Facility (ISPF). </br>
+                ISPF est une application de panneau complet naviguée au clavier. ISPF comprend un éditeur de texte et un
+                navigateur, ainsi que des fonctions permettant de localiser et de répertorier les fichiers et d'exécuter
+                d'autres fonctions utilitaires.</br>
+                Une fois connectés à TSO, les utilisateurs accèdent généralement au menu ISPF. En fait, beaucoup
+                utilisent ISPF exclusivement pour effectuer des travaux sur z/OS. Les menus ISPF répertorient les
+                fonctions les plus fréquemment utilisées par les utilisateurs en ligne.</p>
+            <h4>JCL</h4>
+            <p>Job Control Language (« langage de contrôle des tâches »).
+                C'est un langage de traitement batch.</br>
+                JCL permet de décrire le travail que le système (MVS Z/OS) doit exécuter.</br>
+                3 types d’instructions (appelées aussi cartes) :
+            <ul>
+                <li>JOB: identifie le début d’un travail (première carte d’un job)</li>
+                <li>EXEC: définit le début d’une étape du travail (un job peut comprendre jusqu’à 255 étapes), le
+                    paramètre essentiel d’une étape est le nom du programme à appeler.</li>
+                <li>DD (Data Definition): définit les data sets à utiliser par le travail.</li>
+            </ul>
+            </p>
+            <h4>VSAM</h4>
+            <p>Le Virtual Storage Access Method (VSAM) est une méthode de stockage informatique de données utilisée sur
+                les
+                systèmes z/OS.
+
+                Cette méthode d'accès comprend l'organisation des données, les techniques d'accès à ces données et des
+                outils de
+                maintenance.
+
+                Physiquement, un fichier VSAM (data set) est stocké sur disque sous la forme de blocs physiques
+                regroupés en
+                extents.
+
+                Logiquement, un fichier VSAM est un espace-octet adressable.
+
+                Il existe quatre types de fichiers VSAM :
+            <ul>
+                <li>KSDS (Key Sequenced Data Set) ou séquentiel par clef unique (emploi d'un fichier index séparé des
+                    données)
+                </li>
+                <li>ESDS (Entry Sequenced Data Set) ou séquentiel par ordre d'arrivée</li>
+                <li>RRDS (Relative Record Data Set) ou accès par numéro relatif d'enregistrement</li>
+                <li>LDS (Linear Data Set), fichier linéaire (non structuré, en blocs de 4 Ko)</li>
+            </ul>
+            Le type LDS est celui utilisé pour les tablespace DB2, contrairement aux autres types, on n'attribue pas le
+            nombre de records lors de la définition.</p>
+            <h4>ECLIPSE RDZ</h4>
+            <p>Eclipse est un projet, décliné et organisé en un ensemble de sous-projets de développements logiciels, de
+                la fondation Eclipse visant à développer un environnement de production de logiciels libre qui soit
+                extensible, universel et polyvalent, en s'appuyant principalement sur Java.</p>
+            <h4>COBOL</h4>
+            <p>Cobol est un langage de programmation créé en 1959. Son nom est l’acronyme de Common Organization
+                Business Oriented
+                Language
+                qui révèle sa vocation originelle : être un langage commun pour la programmation d'applications de
+                gestion.
+                Aujourd'hui, il est surtout utilisé dans les secteurs de la banque, des assurances, des grandes
+                administrations.</p>
+            <h4>Transactionnel</h4>
+            <p>Une transaction est un échange, généralement une demande et une réponse.</p>
+            <p>- Qu'est-ce qu'un programme transactionnel ?</p>
+            <p> Une transaction commerciale est une transaction commerciale autonome. Certaines transactions
+                impliquent
+                une courte conversation (par exemple, un changement d'adresse). D'autres impliquent plusieurs
+                actions
+                qui se déroulent sur une période prolongée (par exemple, la réservation d'un voyage, y compris la
+                voiture, l'hôtel et les billets d'avion).</p>
+            <p>- Qu'est-ce qu'un système transactionnel ?</p>
+            <p>Les systèmes de transaction doivent pouvoir prendre en charge un nombre élevé d'utilisateurs et de
+                types
+                de transaction simultanés.</p>
+            <p>- Quelles sont les exigences typiques d'un système de transaction ?</p>
+            <p>Un système de transaction doit respecter l'atomicité, la cohérence, l'isolation et la durabilité.</p>
+            <p>- Qu'est-ce que la validation et la restauration ? </p>
+            <p>Dans les systèmes de transaction, la validation et la restauration font référence à l'ensemble des
+                actions utilisées pour garantir qu'un programme d'application apporte toutes les modifications aux
+                ressources représentées par une seule unité de récupération (UR) ou n'apporte aucune modification.
+                Le
+                protocole de validation en deux phases fournit la validation et la restauration. Il vérifie que
+                toutes
+                les modifications ou aucune modification ne sont appliquées même si l'un des éléments (comme
+                l'application, le système ou le gestionnaire de ressources) échoue. Le protocole permet au processus
+                de
+                redémarrage et de récupération d'avoir lieu après une défaillance du système ou du sous-système.</p>
+            <h4>DB2</h4>
+            <p>Db2 est l'un des systèmes de gestion de base de données propriétaire d'IBM, qui avec Informix, Netezza et
+                SolidDB constituent le socle de la division Information Management. Il utilise le langage SQL tout comme
+                Oracle, PostgreSQL ou MySQL. Il est déployé sur les Mainframes, systèmes UNIX, Windows, Mac/OS et Linux.
+                Il existe également une version allégée pour les ordinateurs de type Palm.</p>
+        </div>
+        <h2 class="w-100 d-flex justify-content-center">Cobol</h2>
+        <ul>
+            <li>Les instructions Cobol se terminent par un point.</li>
+            <li>Système de colonnes numérotés, cela permet d'identifier les instructions en fonction de leurs positions.
+            </li>
+            <li>Colonnes 1 à 6 : Facultatives, dans l'éditeur de texte ISPF il est possible d'utiliser des commandes
+                pour :
+                <ul>
+                    <li>supprimer (d ou dd pour une sélection)</li>
+                    <li>insérer (i ou iX pour plusieurs)</li>
+                    <li>répeter (r ou rX pour plusieurs)</li>
+                    <li>copier (c ou cc pour une sélection)</li>
+                    <li>Après la ligne (a)</li>
+                    <li>Déplacer (m)</li>
+                    <li>Décaller de colonne : '(' ou '(X' ou '((X' pour décaller dans ce sens &lsaquo;-</li>
+                    <li>Décaller de colonne : ')' ou ')X' ou '))X' pour décaller dans ce sens &rsaquo;-</li>
+                    <li>Désafficher une ligne (x ou xx pour une sélection)</li>
+                    <li>Afficher une ligne (s)</li>
+                    <li>Afficher la première ligne d'un groupe de ligne désaffiché (f1)</li>
+                    <li>Afficher la dernière ligne d'un groupe de ligne désaffiché (l1)</li>
+                    <li>commande COLS : affiche les areas</li>
+                </ul>
+            <li>Colonnes 7 : Sert à déclarer un commentaire avec '*' ou avec 'D' pour permettre au compilateur de
+                traiter la ligne en mode debug.</li>
+            <li>Colonnes 8 à 11 : Zone A</br>
+                C'est là que ce trouve les en-têtes de disivion, de sections, noms de paragraphes et les descriptions de
+                fichiers</li>
+            <li>L'identification division : Elle est obligatoire, elle permet d'identifier le fichier.</li>
+            <li>Colonnes 12 à 72 : Zone B</li>
+            <li>Colonnes 73 à 80 : Champ réservé au système qui génère une numérotation à des fins d'identification.
+            </li>
+        </ul>
+        <p>La structure hiérarchique :</p>
+        <ul>
+            <li>Les divisions</li>
+            <li>Les sections</li>
+            <li>Les paragraphes</li>
+            <li>Les phrases</li>
+            <li>Les déclarations</li>
+        </ul>
+        <p>Instruction : Directive unique commençant généralement par un mot réservé COBOL :</p>
+        <ul>
+            <li>ADD</li>
+            <li>DIVIDE</li>
+            <li>MOVE</li>
+            <li>COMPUTE</li>
+        </ul>
+        <p>Terminateur de portée implicite '.'</br>
+           Terminateur de portée explicite 'end-if' (dans le cas d'une condition avec 'if')
+        </p>
+    </div>
+
+</body>
+
+</html>
